@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../sbox_polynomial.srcs/sources_1/new/a.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_b.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_c.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_d.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_e.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_f.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_g.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_h.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_i.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/mod_xinvmul.v" \
+"../../../../sbox_polynomial.srcs/sources_1/new/polynomial.v" \
+"../../../../sbox_polynomial.srcs/sim_1/new/testbench_polynomial.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+Running: xsim.dir/testbench_polynomial_func_synth/xsimk.exe -simmode gui -wdb testbench_polynomial_func_synth.wdb -simrunnum 0 -socket 50152
+Design successfully loaded
+Design Loading Memory Usage: 5468 KB (Peak: 5468 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 6380 KB (Peak: 6380 KB)
+Simulation CPU Usage: 108 ms

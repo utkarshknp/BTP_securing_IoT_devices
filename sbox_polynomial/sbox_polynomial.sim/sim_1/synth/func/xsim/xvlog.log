@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Utkarsh/Documents/sbox_polynomial/sbox_polynomial.sim/sim_1/synth/func/xsim/testbench_polynomial_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_x_inv
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Utkarsh/Documents/sbox_polynomial/sbox_polynomial.srcs/sim_1/new/testbench_polynomial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_polynomial
