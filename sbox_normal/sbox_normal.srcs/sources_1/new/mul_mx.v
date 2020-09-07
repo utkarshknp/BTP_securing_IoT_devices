@@ -33,10 +33,11 @@ reg [7:0]matrix_b=8'b01100011;
 assign dataout[7]= datain[5]^datain[3];
 assign dataout[6]= datain[7]^datain[3]^matrix_b[6];
 assign dataout[5]= datain[6]^datain[0]^matrix_b[5];
-assign dataout[4]= datain[7]^datain[5]^datain[3]^datain[0];
+assign dataout[4]= datain[7]^datain[5]^datain[3];
 assign dataout[3]= datain[7]^datain[6]^datain[5]^datain[4]^datain[3];
 assign dataout[2]= datain[6]^datain[5]^datain[3]^datain[2]^datain[0];
 assign dataout[1]= datain[5]^datain[4]^datain[1]^matrix_b[1];
 assign dataout[0]= datain[6]^datain[4]^datain[1]^matrix_b[0];
 end
 endmodule
+

@@ -8,10 +8,10 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.mul_g2
-Compiling module xil_defaultlib.scale__w2_g2
+Compiling module xil_defaultlib.scale_g2
 Compiling module xil_defaultlib.mul_g4
 Compiling module xil_defaultlib.scale_square_g4
-Compiling module xil_defaultlib.scale_w2_square_g2
+Compiling module xil_defaultlib.scale_square_g2
 Compiling module xil_defaultlib.inverter_g2
 Compiling module xil_defaultlib.inverter_g4
 Compiling module xil_defaultlib.mul_mx

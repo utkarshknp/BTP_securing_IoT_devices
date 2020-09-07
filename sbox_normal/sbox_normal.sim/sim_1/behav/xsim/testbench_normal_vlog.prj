@@ -7,9 +7,9 @@ verilog xil_defaultlib  \
 "../../../../sbox_normal.srcs/sources_1/new/mul_g4.v" \
 "../../../../sbox_normal.srcs/sources_1/new/mul_mx.v" \
 "../../../../sbox_normal.srcs/sources_1/new/mul_xinv.v" \
-"../../../../sbox_normal.srcs/sources_1/new/scale__w2_g2.v" \
+"../../../../sbox_normal.srcs/sources_1/new/scale_g2.v" \
+"../../../../sbox_normal.srcs/sources_1/new/scale_square_g2.v" \
 "../../../../sbox_normal.srcs/sources_1/new/scale_square_g4.v" \
-"../../../../sbox_normal.srcs/sources_1/new/scale_w2_square_g2.v" \
 "../../../../sbox_normal.srcs/sources_1/new/test.v" \
 "../../../../sbox_normal.srcs/sources_1/new/testbench_normal.v" \
 
