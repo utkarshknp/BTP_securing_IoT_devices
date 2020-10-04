@@ -7,16 +7,16 @@ module testbenc();
  reg clk=1'b0;
  Sbox_r mx1(datain[7:0],dataout[7:0],clk);
  
- always @(negedge clk)
+ always @(posedge clk)
  begin
- datain<=datain+1;
+ datain=datain+1;
  end
  
  initial
  begin 
   for(i=0;i<1023;i=i+1)
   begin
-  #4 clk<=~clk;
+  #2 clk=~clk;
   $monitor("simtime = %g, datain =%b, dataout =%b ",$time,datain,dataout);
  end
  end

@@ -3,5 +3,5 @@
 Dec  7 2018
 00:33:28
 C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.srcs/sim_1/new/testb.v,1601447252,verilog,,,,testbenc,,,,,,,,
-C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.srcs/sources_1/new/sbo_opt.v,1601450376,verilog,,C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.srcs/sim_1/new/testb.v,,GF_INV_4;GF_INV_8;GF_MULS_2;GF_MULS_4;GF_MULS_SCL_2;GF_SQ_2;SELECT_NOT_8;Sbox_r;bSbox,,,,,,,,
+C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.srcs/sim_1/new/testb.v,1601464091,verilog,,,,testbenc,,,,,,,,
+C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.srcs/sources_1/new/sbo_opt.v,1601464120,verilog,,C:/Users/Utkarsh/Documents/sbox_compact_optimized/sbox_compact_optimized.srcs/sim_1/new/testb.v,,GF_INV_4;GF_INV_8;GF_MULS_2;GF_MULS_4;GF_MULS_SCL_2;GF_SQ_2;SELECT_NOT_8;Sbox_r;bSbox,,,,,,,,
