@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_pipeline.srcs/sources_1/new/f2.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f3.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f4.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f5.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f6.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f7.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f8.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f9.v" \
+"../../../../AES_pipeline.srcs/sources_1/new/f1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

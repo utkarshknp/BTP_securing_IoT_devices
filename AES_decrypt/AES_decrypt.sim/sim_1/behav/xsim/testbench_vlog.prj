@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_decrypt.srcs/sources_1/new/aesmerged.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/invcolumns.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/invshiftrows.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/invsubst.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/keygen.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/round_num.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/roundnum_last.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/sbox1.v" \
+"../../../../AES_decrypt.srcs/sources_1/new/sboxinv.v" \
+"../../../../AES_decrypt.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

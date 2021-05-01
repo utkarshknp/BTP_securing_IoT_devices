@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Dec 29 19:22:14 2020
+# Process ID: 13724
+# Current directory: C:/Users/Utkarsh/Documents/AES_decrypt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7980 C:\Users\Utkarsh\Documents\AES_decrypt\AES_decrypt.xpr
+# Log file: C:/Users/Utkarsh/Documents/AES_decrypt/vivado.log
+# Journal file: C:/Users/Utkarsh/Documents/AES_decrypt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Utkarsh/Documents/AES_decrypt/AES_decrypt.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source aes_decryption.tcl
+close_sim

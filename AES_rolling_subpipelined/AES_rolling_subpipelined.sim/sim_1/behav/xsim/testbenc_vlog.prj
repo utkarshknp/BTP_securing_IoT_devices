@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/Top_mod.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/aes_merged.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/extras.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/keyGen.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/roundnum.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/roundnum_last.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/sbox.v" \
+"../../../../AES_rolling_subpipelined.srcs/sources_1/new/testbenc.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

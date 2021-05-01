@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_merged.srcs/sources_1/new/Sbox_compact_120.v" \
+"../../../../AES_merged.srcs/sources_1/new/aes_merged.v" \
+"../../../../AES_merged.srcs/sources_1/new/key_generation.v" \
+"../../../../mixcolumn.v" \
+"../../../../AES_merged.srcs/sources_1/new/roundnum.v" \
+"../../../../AES_merged.srcs/sources_1/new/roundnum_l.v" \
+"../../../../AES_merged.srcs/sources_1/new/shiftrows.v" \
+"../../../../subbytes.v" \
+"../../../../AES_merged.srcs/sources_1/new/testb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

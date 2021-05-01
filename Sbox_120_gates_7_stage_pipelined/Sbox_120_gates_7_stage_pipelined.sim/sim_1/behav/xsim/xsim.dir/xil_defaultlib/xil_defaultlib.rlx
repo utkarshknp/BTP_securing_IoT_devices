@@ -1,0 +1,7 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Utkarsh/Documents/Sbox_120_gates_7_stage_pipelined/Sbox_120_gates_7_stage_pipelined.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Utkarsh/Documents/Sbox_120_gates_7_stage_pipelined/Sbox_120_gates_7_stage_pipelined.srcs/sim_1/new/tb.v,1604583642,verilog,,,,testbenc,,,,,,,,
+C:/Users/Utkarsh/Documents/Sbox_120_gates_7_stage_pipelined/Sbox_120_gates_7_stage_pipelined.srcs/sources_1/new/f1.v,1605616912,verilog,,C:/Users/Utkarsh/Documents/Sbox_120_gates_7_stage_pipelined/Sbox_120_gates_7_stage_pipelined.srcs/sim_1/new/tb.v,,GF_INV_4;GF_INV_8;GF_MULS_2;GF_MULS_4;GF_MULS_SCL_2;GF_SQ_2;bSbox,,,,,,,,

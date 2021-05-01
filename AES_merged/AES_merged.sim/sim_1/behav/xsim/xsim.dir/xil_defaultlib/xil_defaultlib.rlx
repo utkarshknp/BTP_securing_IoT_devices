@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v,1603634166,verilog,,C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/aes_merged.v,,GF_INV_4;GF_INV_8;GF_MULS_2;GF_MULS_4;GF_MULS_SCL_2;GF_SQ_2;bSbox;bSbox_1,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/aes_merged.v,1603638169,verilog,,C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/key_generation.v,,aes_merged,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/key_generation.v,1603638155,verilog,,C:/Users/Utkarsh/Documents/AES_merged/mixcolumn.v,,KeyGeneration,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/roundnum.v,1603638162,verilog,,C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/roundnum_l.v,,roundnum,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/roundnum_l.v,1603637860,verilog,,C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/shiftrows.v,,rounndnum_l,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/shiftrows.v,1603631527,verilog,,C:/Users/Utkarsh/Documents/AES_merged/subbytes.v,,shiftrows,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/testb.v,1603637785,verilog,,,,testbenc,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/mixcolumn.v,1603632245,verilog,,C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/roundnum.v,,mixcolumn,,,,,,,,
+C:/Users/Utkarsh/Documents/AES_merged/subbytes.v,1603634490,verilog,,C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/testb.v,,subbytes,,,,,,,,

@@ -1,0 +1,342 @@
+
+*** Running vivado
+    with args -log roundnum.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source roundnum.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source roundnum.tcl -notrace
+Command: synth_design -top roundnum -part xc7k160tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9516 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 436.660 ; gain = 97.621
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'roundnum' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/roundnum.v:3]
+INFO: [Synth 8-6157] synthesizing module 'KeyGeneration' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/key_generation.v:3]
+INFO: [Synth 8-6157] synthesizing module 'bSbox' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:146]
+INFO: [Synth 8-6157] synthesizing module 'bSbox_1' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:109]
+INFO: [Synth 8-6157] synthesizing module 'GF_INV_8' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:74]
+INFO: [Synth 8-6157] synthesizing module 'GF_INV_4' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:35]
+INFO: [Synth 8-6157] synthesizing module 'GF_SQ_2' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'GF_SQ_2' (1#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:3]
+INFO: [Synth 8-6157] synthesizing module 'GF_MULS_2' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'GF_MULS_2' (2#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'GF_INV_4' (3#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:35]
+INFO: [Synth 8-6157] synthesizing module 'GF_MULS_4' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:54]
+INFO: [Synth 8-6157] synthesizing module 'GF_MULS_SCL_2' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'GF_MULS_SCL_2' (4#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'GF_MULS_4' (5#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'GF_INV_8' (6#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'bSbox_1' (7#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:109]
+INFO: [Synth 8-6155] done synthesizing module 'bSbox' (8#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/Sbox_compact_120.v:146]
+INFO: [Synth 8-6155] done synthesizing module 'KeyGeneration' (9#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/key_generation.v:3]
+INFO: [Synth 8-6157] synthesizing module 'subbytes' [C:/Users/Utkarsh/Documents/AES_merged/subbytes.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'subbytes' (10#1) [C:/Users/Utkarsh/Documents/AES_merged/subbytes.v:3]
+INFO: [Synth 8-6157] synthesizing module 'shiftrows' [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/shiftrows.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shiftrows' (11#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/shiftrows.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mixcolumn' [C:/Users/Utkarsh/Documents/AES_merged/mixcolumn.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mixcolumn' (12#1) [C:/Users/Utkarsh/Documents/AES_merged/mixcolumn.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'roundnum' (13#1) [C:/Users/Utkarsh/Documents/AES_merged/AES_merged.srcs/sources_1/new/roundnum.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 493.262 ; gain = 154.223
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 493.262 ; gain = 154.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 493.262 ; gain = 154.223
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Utkarsh/Desktop/BTP/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [C:/Users/Utkarsh/Desktop/BTP/constraints.xdc:3]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK]'. [C:/Users/Utkarsh/Desktop/BTP/constraints.xdc:3]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/Utkarsh/Desktop/BTP/constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 860.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 860.168 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 860.168 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.168 ; gain = 521.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.168 ; gain = 521.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.168 ; gain = 521.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 860.168 ; gain = 521.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    128 Bit         XORs := 1     
+	   3 Input     32 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 3     
+	   2 Input      2 Bit         XORs := 140   
+	   2 Input      1 Bit         XORs := 939   
+	   4 Input      1 Bit         XORs := 126   
+	   3 Input      1 Bit         XORs := 161   
+	   5 Input      1 Bit         XORs := 27    
+	   6 Input      1 Bit         XORs := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module roundnum 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    128 Bit         XORs := 1     
+Module GF_MULS_2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module GF_INV_4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
+Module GF_MULS_SCL_2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module GF_MULS_4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      2 Bit         XORs := 2     
+Module GF_INV_8 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      2 Bit         XORs := 3     
+	   2 Input      1 Bit         XORs := 9     
+	   4 Input      1 Bit         XORs := 4     
+Module bSbox_1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
+	   3 Input      1 Bit         XORs := 5     
+Module KeyGeneration 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 3     
+Module mixcolumn 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 59    
+	   3 Input      1 Bit         XORs := 61    
+	   5 Input      1 Bit         XORs := 27    
+	   4 Input      1 Bit         XORs := 46    
+	   6 Input      1 Bit         XORs := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 860.168 ; gain = 521.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 861.066 ; gain = 522.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 862.406 ; gain = 523.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    61|
+|2     |LUT3 |    67|
+|3     |LUT4 |   307|
+|4     |LUT5 |   216|
+|5     |LUT6 |  1309|
+|6     |IBUF |   260|
+|7     |OBUF |   256|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  2476|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 893.371 ; gain = 187.426
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 893.371 ; gain = 554.332
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-101] Netlist 'roundnum' is not ideal for floorplanning, since the cellview 'roundnum' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 893.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 893.371 ; gain = 567.488
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 893.371 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Utkarsh/Documents/AES_merged/AES_merged.runs/synth_1/roundnum.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file roundnum_utilization_synth.rpt -pb roundnum_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  4 17:14:56 2021...

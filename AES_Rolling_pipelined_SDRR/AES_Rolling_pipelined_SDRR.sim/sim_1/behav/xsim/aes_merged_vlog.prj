@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/extras.v" \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/keygen.v" \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/round_num_last.v" \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/roundnum.v" \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/sbox.v" \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/sdrr_module.v" \
+"../../../../AES_Rolling_pipelined_SDRR.srcs/sources_1/new/aes_merged.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

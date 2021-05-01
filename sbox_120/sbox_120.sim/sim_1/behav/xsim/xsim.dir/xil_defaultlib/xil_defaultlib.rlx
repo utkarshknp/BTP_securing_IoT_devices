@@ -1,0 +1,7 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Utkarsh/Documents/sbox_120/sbox_120.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Utkarsh/Documents/sbox_120/sbox_120.srcs/sim_1/new/testbench.v,1601903968,verilog,,,,testbenc,,,,,,,,
+C:/Users/Utkarsh/Documents/sbox_120/sbox_120.srcs/sources_1/new/sbox.v,1601996340,verilog,,C:/Users/Utkarsh/Documents/sbox_120/sbox_120.srcs/sim_1/new/testbench.v,,GF_INV_4;GF_INV_8;GF_MULS_2;GF_MULS_4;GF_MULS_SCL_2;GF_SQ_2;Sbox_r;bSbox,,,,,,,,
